@@ -16,15 +16,15 @@
     <div class="container">
         <!-- Home Slide -->
         <section id="home" class="slide">
-			<h1 class="wedding-subtitle">a gentle invitation</h1>
+			<h1 class="wedding-subtitle" style="color:#735667;">a gentle invitation</h1>
             
-			<p class="wedding-subtitle" style="margin-top:120px;"><br>Well, And Just Like That. <br> <br> <br>We are Married, <br> <br> <br>And You Are Invited.</p>
-			<h1 class="wedding-title" style="margin-bottom:30px;margin-top:20px;">ADRIAN & RHEA</h1>
+			<p class="wedding-subtitle" style="margin-top:60px;">You Are Invited</p>
+			<h1 class="wedding-title" style="margin-bottom:60px;margin-top:75px;">ADRIAN THEODORE KING <p style="font-size: 40px;margin:10px 0px 10px 0;">&</p> RHEA REVANA RENCY</h1>
 
 			
-<button id="rsvp-button" class="rsvp-btn" style="width:210px;">RSVP HERE</button>
+<button id="rsvp-button" class="rsvp-btn">RSVP HERE</button>
             <div class="couples-message">
-                <h3>Letter From Friends</h3>
+                <div id="letterFrom">Letter From Friends</div>
                 <div class="message-slider">
 					<p id="message-display">Hello, Thanks for the Message!</p>
                 </div>
@@ -45,27 +45,29 @@
                 </div>
             </div>
             <div class="prize-info">
-                <h3>Gift Information</h3>
-                <p>Cash is preferable. You can bring to the Event or transfer to:</p>
-                <p id="bank-account">Tolong diisi dong</p>
+				<div class="prizedetail" style="width:70%;margin:auto;">
+                <div id="giftTitle">GIFT INFORMATION</div>
+                <p>Cash is preferable. You can bring to the event or transfer to:</p>
+                <p id="bank-account">BCA 090 1120 888 Rhea Revana Rency</p>
+			</div>
             </div>
         </section>
 
         <!-- RSVP Form Slide -->
         <section id="rsvp" class="slide hidden">
-            <h2>RSVP Form</h2>
+            <h2 style="color:#735667;">RSVP Form</h2>
             <form id="rsvp-form">
                 <label for="name">Name</label><br>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" required><br><br>
 
                 <label for="origins">Origins:</label><br>
-                <input type="text" id="origins" name="origins" required>
+                <input type="text" id="origins" name="origins" required><br><br>
 
-                <label for="rsvp">Will you attend?</label><br>
+                <label for="rsvp">Will you attend to our event?</label><br>
                 <div>
                     <label><input type="radio" class="theradio" name="rsvp" value="Yes"  required> Yes</label>
                     <label><input type="radio" class="theradio" name="rsvp" value="No" required> No</label>
-                </div>
+                </div><br>
 
                 <label for="message">Wishes for the Couple:</label><br>
                 <textarea id="message" name="message" maxlength="150"></textarea>

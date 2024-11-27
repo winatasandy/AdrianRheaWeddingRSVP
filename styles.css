@@ -9,6 +9,11 @@
     font-family: 'ScriptAdrhea'; /*a name to be used later*/
     src: url('font/SnellBT-Regular.otf'); /*URL to font*/
 }
+
+@font-face {
+    font-family: 'Vailery'; /*a name to be used later*/
+    src: url('font/vailery.ttf'); /*URL to font*/
+}
 body {
     margin: 0;
     font-family: 'Cormorant Garamond', serif;
@@ -34,15 +39,17 @@ margin:auto;
 
 
 .wedding-title {
-    font-size: 2.2rem;
+    font-family: 'Vailery', serif;
+	font-size: 1.3rem;
 	opacity: 100%;
 	mix-blend-mode:hard-light;
     font-weight: 100;
+	letter-spacing: 2px;
 }
 
 .wedding-subtitle {
     font-family: 'Archivo', sans-serif;
-font-size: 0.72rem;
+font-size: 0.6rem;
     font-weight: 300;
 	padding-bottom: 30px;
 	letter-spacing: 3px;
@@ -60,10 +67,10 @@ margin: 18px auto;
 
 .message-slider {
     font-family: 'ScriptAdrhea', cursive;
-font-size: 0.9rem;
+font-size: 0.7rem;
     margin-bottom: 10px;
 	font-weight: 100;
-	width: 320px;
+	width: 270px;
 	height: 100px;
 	margin:auto;
 }
@@ -82,6 +89,7 @@ font-size: 0.5rem;
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
+	color:#735667;
 	margin-bottom: 90px;
 }
 
@@ -92,26 +100,33 @@ font-size: 0.5rem;
 
 .prize-info {
     margin-top: 20px;
-    background: rgba(61, 90, 96, 0.9);
-    padding: 20px;
-	width:330px;
+    background: rgba(83, 49, 62, 1);
+    padding: 27px;
+	width:400px;
 	margin:auto;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
+	height:180px;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	font-family: 'Archivo', sans-serif;
+	font-size: 0.6rem;
+	background: url('images/coverGift.png') no-repeat top center;
 }
 
 form {
     margin: auto;
     max-width: 400;
-    padding: 20px;
+    padding: 30px;
     animation: fadeIn 1s ease-in-out;
+	color:#735667;
+	font-family:'Archivo', sans-serif;
+	font-size:0.7rem;
+	margin-top:10px;
 }
 
 input, textarea, button {
     width: 90%;
 	margin-top: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -156,14 +171,16 @@ button:hover {
 }
 
 .rsvp-btn {
-    background-color: #d4a869;
+    background-color: #715F71;
     color: white;
+	width:150px;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 0.6rem;
     cursor: pointer;
-    margin: 10px auto;
+    margin: auto;
+	margin-top:30px;
 	margin-bottom:0px;
     animation: fadeIn 1s ease-in-out;
     font-family: 'Archivo', sans-serif;
@@ -171,12 +188,27 @@ button:hover {
 font-weight:500;
 }
 
+#letterFrom{
+	margin-top:0px;
+		padding:0;
+	font-size:1rem;
+		
+}
+
+#giftTitle{
+	font-family: 'Archivo', sans-serif;
+font-size: 0.9rem;
+	margin-top:40px;
+	margin-bottom:20px;
+	letter-spacing:3px;
+}
+
 .rsvp-btn:hover {
     background-color: #c0a785;
 }
 .submit-btn {
     width:100px;
-	background-color: #d4a869;
+	background-color: #715F71;
 }
 .submit-btn:hover {
     background-color: #c0a785;
@@ -194,7 +226,8 @@ margin-bottom:30px;
     overflow-x: hidden;
     position: relative;
 margin:auto;
-font-size:9px;
+	color:#735667;
+font-size:7px;
 font-family:'Archivo', sans-serif;
 text-align:center;
 padding-top: 10px;
