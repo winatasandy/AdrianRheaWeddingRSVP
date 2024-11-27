@@ -49,20 +49,20 @@ document.getElementById('rsvp-form').addEventListener('submit', async function (
 
    try {
         // Replace 'YOUR_SCRIPT_URL' with your Apps Script Web App URL
-        const response = await fetch('https://script.google.com/macros/s/AKfycbwjdR0frPj7UGT8wXkjyi-jqqHtt94_8Hztlq5eFMjM37sDLGtxYXoVOxFWyOH15a2RFQ/exec', {
+        const response = await fetch('https://script.google.com/macros/s/AKfycbxPwsTUPGRO3X6M2wztMiuKDimJl6nl9Z2Gv-pnd8FIBNsKMTj1OQeq1O8IGip8KMDtqw/exec', {
             method: 'POST',
             body: new URLSearchParams(data),
         });
 
         const result = await response.json();
         if (result.status === 'success') {
-            alert('RSVP Submitted Successfully!');
+            alert('Hey Your RSVP Submitted Successfully!');
             e.target.reset();
         } else {
-            throw new Error('Submission failed');
+            throw new Error('Oh Man, Submission failed');
         }
     } catch (error) {
-        alert('There was an error submitting your RSVP.');
+        alert('Wait, There was an error submitting your RSVP.');
         console.error(error);
     }
 });
