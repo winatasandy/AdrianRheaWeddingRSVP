@@ -82,9 +82,3 @@ messageInput.addEventListener('input', () => {
     charCounter.textContent = `${remaining} characters remaining`;
 });
 
-
-//MusicPlayer
-const backgroundMusic = document.getElementById('background-music');
-const playButton = document.getElementById('play-music');
-const pauseButton = document.getElementById('pause-music');
-
