@@ -60,20 +60,23 @@ margin: 18px auto;
 
 .message-slider {
     font-family: 'ScriptAdrhea', cursive;
-font-size: 1rem;
+font-size: 1.1rem;
     margin-bottom: 10px;
-	font-weight: lighter;
+	font-weight: 100;
 	width: 320px;
 	height: 100px;
 	margin:auto;
 }
 
 .message-slider-caption {
-    font-family: 'ScriptAdrhea', cursive;
-font-size: 0.9rem;
-	font-weight: lighter;
-    font-style: italic;
-    margin-top: 5px;
+    font-family: 'Archivo', sans-serif;
+font-size: 0.5rem;
+	font-weight: normal;
+    font-style: ;
+    margin-top: 10px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	
 }
 
 .event-info {

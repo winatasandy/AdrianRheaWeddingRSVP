@@ -1,7 +1,7 @@
 
 // Fetch messages from Google Sheets
 async function fetchMessages() {
-    const response = await fetch("https://script.google.com/macros/s/AKfycbxlQgPTiqifilTPKCDlUmFACL-3QXrn5fb0ey-hDKV-WKFLb_5EPH87XHZNWE9t3HmuVw/exec"); // Replace with your Web App URL
+    const response = await fetch("https://script.google.com/macros/s/AKfycbwl9vhGpc02XgQXUkqmt7WhbFJK_VdEMdA3Ho-ZmS5expQaTIT8pM2eHTDK1uWsS6s9/exec"); // Replace with your Web App URL
     const messages = await response.json();
     return messages.map(row => ({
         name: row.name, // Replace 'Name' with the column header in your Google Sheet
@@ -54,7 +54,7 @@ document.getElementById('rsvp-form').addEventListener('submit', async function (
 
    try {
         // Replace 'YOUR_SCRIPT_URL' with your Apps Script Web App URL
-        const response = await fetch("https://script.google.com/macros/s/AKfycbxlQgPTiqifilTPKCDlUmFACL-3QXrn5fb0ey-hDKV-WKFLb_5EPH87XHZNWE9t3HmuVw/exec", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbwl9vhGpc02XgQXUkqmt7WhbFJK_VdEMdA3Ho-ZmS5expQaTIT8pM2eHTDK1uWsS6s9/exec", {
             method: 'POST',
             body: new URLSearchParams(data),
         });
