@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: 'ScriptAdrhea'; /*a name to be used later*/
+    src: url('font/SnellBT-Regular.otf'); /*URL to font*/
+}
+body {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+color: #bacdca;
+		filter:blur(0.4px);
+    background: url('images/fullBG.jpg') no-repeat center center fixed;
+background-size: cover;
+ }
+
+.container {
+    width: 90%;
+    overflow-x: hidden;
+    position: relative;
+margin:auto;
+}
+
+.slide {
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+	background: url('images/cover front.png') no-repeat top center;
+}
+
+
+.wedding-title {
+    font-size: 2.4rem;
+	opacity: 100%;
+	mix-blend-mode:hard-light;
+    font-weight: 100;
+}
+
+.wedding-subtitle {
+    font-family: 'Archivo', sans-serif;
+font-size: 0.81rem;
+    font-weight: 300;
+	padding-bottom: 30px;
+	letter-spacing: 3px;
+	
+
+}
+.couples-message {
+margin: 18px auto;
+    padding: 20px;
+    border-radius: 8px;
+	margin-bottom: 110px;
+		
+    
+}
+
+.message-slider {
+    font-family: 'ScriptAdrhea', cursive;
+font-size: 1rem;
+    margin-bottom: 10px;
+	font-weight: lighter;
+	width: 320px;
+	height: 100px;
+	margin:auto;
+}
+
+.message-slider-caption {
+    font-family: 'ScriptAdrhea', cursive;
+font-size: 0.9rem;
+	font-weight: lighter;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.event-info {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+	margin-bottom: 90px;
+}
+
+.event {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.prize-info {
+    margin-top: 20px;
+    background: rgba(61, 90, 96, 0.9);
+    padding: 20px;
+	width:400px;
+	margin:auto;
+	padding-bottom: 20px;
+    border-radius: 5px;
+	mix-blend-mode: overlay;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin: auto;
+    max-width: 400;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+}
+
+input, textarea, button {
+    width: 90%;
+	margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+	font-family: 'Cormorant Garamond', serif;
+  
+}
+
+textarea{
+	padding-bottom:50px;
+	
+}
+
+#theradio{
+    width: 10px;
+    margin-bottom: 20px;
+margin-left:10px
+    padding: 0px;
+
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#rsvp{
+	background: none;
+	width: 400px;
+	margin:auto;
+	
+}
+
+.rsvp-btn {
+    background-color: #d4a869;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 20px auto;
+	margin-bottom:0px;
+    animation: fadeIn 1s ease-in-out;
+    font-family: 'Archivo', sans-serif;
+	letter-spacing: 3px;
+font-weight:500;
+}
+
+.rsvp-btn:hover {
+    background-color: #c0a785;
+}
+.submit-btn {
+    width:100px;
+	background-color: #d4a869;
+}
+.submit-btn:hover {
+    background-color: #c0a785;
+}
+
+#char-counter {
+    color: #AAA;
+	font-size:9px;
+	font-family: Archivo;
+	letter-spacing: 2px;
+margin-bottom:30px;
+}
+#footer {
+    width: 90%;
+    overflow-x: hidden;
+    position: relative;
+margin:auto;
+font-size:9px;
+font-family:'Archivo', sans-serif;
+text-align:center;
+padding-top: 10px;
+padding-bottom : 30px;
+}
+
+#background-music {
+    display: none; /* Hides the audio element */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+

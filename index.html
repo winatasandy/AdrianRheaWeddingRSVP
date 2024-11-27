@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding RSVP</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.0/axios.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Home Slide -->
+        <section id="home" class="slide">
+			<h1 class="wedding-subtitle">a gentle invitation</h1>
+            <h1 class="wedding-title" style="margin-bottom:30px;margin-top:130px;">ADRIAN & RHEA</h1>
+			<p class="wedding-subtitle"><br>Well, And Just Like That. <br> <br> <br>We are Married, <br> <br> <br>And You Are Invited.</p>
+
+			
+<button id="rsvp-button" class="rsvp-btn" style="width:210px;">RSVP HERE</button>
+            <div class="couples-message">
+                <h3>Letter From Friends</h3>
+                <div class="message-slider">
+                    <p id="message-display">[Messages from Database]</p>
+                </div>
+            </div>
+            
+            <div class="event-info">
+                <div class="event">
+                    <h3>Holy Matrimony</h3>
+                    <p>Wednesday - December 18, 2024</p>
+                    <p>4:15 PM WIB / 10:15 PM CET</p>
+                    <p>Gereja Santo Yusup Blitar</p>
+                </div>
+                <div class="event">
+                    <h3>Wedding Reception</h3>
+                    <p>Wednesday - December 18, 2024</p>
+                    <p>6PM WIB / 12PM CET</p>
+                    <p>Hotel Tugu Blitar</p>
+                </div>
+            </div>
+            <div class="prize-info">
+                <h3>Gift Information</h3>
+                <p>Cash is preferable. You can bring to the Event or transfer to:</p>
+                <p id="bank-account">[Bank Account Details]</p>
+            </div>
+        </section>
+
+        <!-- RSVP Form Slide -->
+        <section id="rsvp" class="slide hidden">
+            <h2>RSVP Form</h2>
+            <form id="rsvp-form">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required>
+
+                <label for="origins">Origins:</label><br>
+                <input type="text" id="origins" name="origins" required>
+
+                <label for="rsvp">Will you attend?</label><br>
+                <div>
+                    <label><input type="radio" id="theradio" name="rsvp" value="Yes"  required> Yes</label>
+                    <label><input type="radio" id="theradio" name="rsvp" value="No" required> No</label>
+                </div>
+
+                <label for="message">Wishes for the Couple:</label><br>
+                <textarea id="message" name="message" maxlength="150"></textarea>
+				<div id="char-counter">150 characters remaining</div>
+                <button class="submit-btn" type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+
+<div id="footer">
+Copyright by ADD+ Content Creation Powerhouse - Wedding Service 2024 | Instagram @addco ntent.co </div>
+	
+	<audio id="background-music" loop autoplay>
+    <source src="music/atlast-ettajames.mp3" type="audio/mpeg">
+</audio>
+	
+</body>
+</html>
