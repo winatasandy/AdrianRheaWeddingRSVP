@@ -1,16 +1,22 @@
 
-// Message Slider Simulation with Names and Captions
-const messagesWithNames = [
-    { name: "Alice", message: "Rhea adalah uhuy uhuyRhea adalah uhuy uhuyRhea adalah uhuy uhuyRhea adalah uhuy uhuyRhea adalah uhuy uhuyRhea adalah uhuy uhuyRhea adalah uhuy uhuyRhe" },
-    { name: "Bob", message: "Congratulations on your big day!" },
-    { name: "Charlie", message: "Wishing you a lifetime of happiness!" }
-];
+// Fetch messages from Google Sheets
+async function fetchMessages() {
+    const response = await fetch("https://script.google.com/macros/s/AKfycbxlQgPTiqifilTPKCDlUmFACL-3QXrn5fb0ey-hDKV-WKFLb_5EPH87XHZNWE9t3HmuVw/exec"); // Replace with your Web App URL
+    const messages = await response.json();
+    return messages.map(row => ({
+        name: row.name, // Replace 'Name' with the column header in your Google Sheet
+        message: row.message // Replace 'Message' with the column header in your Google Sheet
+    }));
+}
 
+// Display messages dynamically
 let currentMessageIndex = 0;
 const messageDisplay = document.getElementById('message-display');
 
+async function showNextMessage() {
+    const messagesWithNames = await fetchMessages(); // Fetch dynamic data
+    if (messagesWithNames.length === 0) return; // Ensure there are messages to display
 
-function showNextMessage() {
     // Fade out
     messageDisplay.style.opacity = 0;
 
@@ -26,7 +32,6 @@ function showNextMessage() {
         currentMessageIndex = (currentMessageIndex + 1) % messagesWithNames.length;
     }, 1000); // Match with fade-out animation duration
 }
-
 // Initialize fade animation
 messageDisplay.style.transition = "opacity 1s ease-in-out";
 setInterval(showNextMessage, 5000); // Change message every 4 seconds 
@@ -49,7 +54,7 @@ document.getElementById('rsvp-form').addEventListener('submit', async function (
 
    try {
         // Replace 'YOUR_SCRIPT_URL' with your Apps Script Web App URL
-        const response = await fetch('https://script.google.com/macros/s/AKfycbxPwsTUPGRO3X6M2wztMiuKDimJl6nl9Z2Gv-pnd8FIBNsKMTj1OQeq1O8IGip8KMDtqw/exec', {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbxlQgPTiqifilTPKCDlUmFACL-3QXrn5fb0ey-hDKV-WKFLb_5EPH87XHZNWE9t3HmuVw/exec", {
             method: 'POST',
             body: new URLSearchParams(data),
         });
