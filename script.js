@@ -82,3 +82,4 @@ messageInput.addEventListener('input', () => {
     charCounter.textContent = `${remaining} characters remaining`;
 });
 
+

@@ -72,7 +72,6 @@ font-size: 0.9rem;
     font-family: 'Archivo', sans-serif;
 font-size: 0.5rem;
 	font-weight: normal;
-    font-style: ;
     margin-top: 10px;
 	letter-spacing: 3px;
 	text-transform: uppercase;
@@ -125,10 +124,10 @@ textarea{
 	
 }
 
-#theradio{
+.theradio{
     width: 10px;
     margin-bottom: 20px;
-margin-left:10px
+margin-left:10px;
     padding: 0px;
 
 }
