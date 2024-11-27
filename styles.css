@@ -99,7 +99,6 @@ font-size: 0.5rem;
 	margin:auto;
 	padding-bottom: 20px;
     border-radius: 5px;
-	mix-blend-mode: overlay;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -107,8 +106,6 @@ form {
     margin: auto;
     max-width: 400;
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     animation: fadeIn 1s ease-in-out;
 }
 
