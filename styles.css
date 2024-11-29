@@ -225,11 +225,12 @@ font-size: 0.9rem;
 }
 
 #char-counter {
-    color: #AAA;
+    color: #735667;
 	font-size:9px;
 	font-family: Archivo;
 	letter-spacing: 2px;
-margin-bottom:30px;
+	margin-bottom:40px;
+	margin: auto;
 }
 #footer {
     width: 90%;
