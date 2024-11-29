@@ -82,3 +82,20 @@ messageInput.addEventListener('input', () => {
     charCounter.textContent = `${remaining} characters remaining`;
 });
 
+//Audio
+
+// Create an Audio object
+const backgroundMusic = new Audio('music/atlastettajames.mp3'); // Replace with your // 
+backgroundMusic.loop = true; // Enable looping
+
+// Play the audio after user interaction
+document.addEventListener('DOMContentLoaded', () => {
+    // Ensure audio plays after user interaction (required by most browsers)
+    const playBackgroundMusic = () => {
+        backgroundMusic.play().catch(error => console.error('Audio playback failed:', error));
+        document.removeEventListener('click', playBackgroundMusic); // Remove event listener after first interaction
+    };
+
+    // Attach event listener to ensure audio starts after interaction
+    document.addEventListener('click', playBackgroundMusic);
+});
