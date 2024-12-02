@@ -17,16 +17,18 @@
 body {
     margin: 0;
     font-family: 'Cormorant Garamond', serif;
-color: #bacdca;
-    background: url('images/fullBG.jpg') no-repeat center center fixed;
-background-size: cover;
+color:#EEF7F5;
+    background: url('images/fullBG.jpg') no-repeat top center;
+background-size:cover;
  }
 
 .container {
-    zoom:90%;
-	width: 90%;
+    
+	width: 100%;
+	background: url('images/containerBG.png') no-repeat top center;
     overflow-x: hidden;
     position: relative;
+	
 margin:auto;
 }
 
@@ -40,7 +42,7 @@ margin:auto;
 
 .wedding-title {
     font-family: 'Vailery', serif;
-	font-size: 1.3rem;
+	font-size: 0.6rem;
 	opacity: 100%;
 	mix-blend-mode:hard-light;
     font-weight: 100;
@@ -60,17 +62,19 @@ font-size: 0.6rem;
 margin: 18px auto;
     padding: 15px;
     border-radius: 8px;
-	margin-bottom: 90px;
+	margin-bottom: 20px;
+	margin-top:120px;
+	color:#604655;
 		
     
 }
 
 .message-slider {
     font-family: 'ScriptAdrhea', cursive;
-font-size: 0.7rem;
+font-size: 1rem;
     margin-bottom: 10px;
 	font-weight: 100;
-	width: 270px;
+	width: 400px;
 	height: 100px;
 	margin:auto;
 }
@@ -89,7 +93,7 @@ font-size: 0.5rem;
     display: flex;
     justify-content: space-around;
     margin: 20px 0;
-	color:#735667;
+	color:#604655;
 }
 
 .event {
@@ -100,11 +104,11 @@ font-size: 0.5rem;
 .dresscode-info {
     
     padding: 27px;
-	color:#735667;
+	color:#604655;
 	width:90%;
 	margin:auto;
 	padding-bottom: 30px;
-	height:180px;
+	height:270px;
     border-radius: 5px;
 	font-family: 'Archivo', sans-serif;
 	font-size: 0.6rem;
