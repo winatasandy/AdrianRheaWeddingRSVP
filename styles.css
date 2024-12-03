@@ -132,7 +132,7 @@ font-family: 'Garamond Bold', sans-serif;
 	width:90%;
 	margin:auto;
 	padding-bottom: 30px;
-	height:180px;
+	height:210px;
     border-radius: 5px;
 	font-family: 'Archivo', sans-serif;
 	font-size: 0.6rem;
@@ -141,25 +141,25 @@ font-family: 'Garamond Bold', sans-serif;
 }
 .prize-detail p a:link {
   color:#EEF7F5;
-	text-decoration : none;
+	text-decoration:none;
 }
 
 /* visited link */
 .prize-detail p a:visited {
    color:#EEF7F5;
-	text-decoration : none;
+	text-decoration:none;
 }
 
 /* mouse over link */
 .prize-detail p a:hover {
    color:#EEF7F5;
-	text-decoration : none;
+	text-decoration:none;
 }
 
 /* selected link */
 .prize-detail p a:active {
    color:#EEF7F5;
-	text-decoration : none;
+	text-decoration:none;
 }
 form {
     margin: auto;
