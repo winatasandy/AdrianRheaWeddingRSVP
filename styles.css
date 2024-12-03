@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
-
+@import url('https://fonts.cdnfonts.com/css/archivo'); 
 
 @font-face {
     font-family: 'Garamond'; /*a name to be used later*/
@@ -88,7 +88,7 @@ font-size: 1rem;
 .message-slider-caption {
     font-family: 'Archivo', sans-serif;
 font-size: 0.5rem;
-	font-weight: normal;
+	font-weight: bold;
     margin-top: 10px;
 	letter-spacing: 3px;
 	text-transform: uppercase;
