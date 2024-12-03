@@ -141,19 +141,19 @@ font-family: 'Garamond', sans-serif;
 }
 
 /* visited link */
-a:visited {
+.prize-detail a:visited {
    color:#EEF7F5;
 	text-decoration : none;
 }
 
 /* mouse over link */
-a:hover {
+.prize-detail a:hover {
    color:#EEF7F5;
 	text-decoration : none;
 }
 
 /* selected link */
-a:active {
+.prize-detail a:active {
    color:#EEF7F5;
 	text-decoration : none;
 }
