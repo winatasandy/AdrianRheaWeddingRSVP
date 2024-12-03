@@ -34,7 +34,7 @@ async function showNextMessage() {
 }
 // Initialize fade animation
 messageDisplay.style.transition = "opacity 1s ease-in-out";
-setInterval(showNextMessage, 5000); // Change message every 4 seconds 
+setInterval(showNextMessage, 7000); // Change message every 4 seconds 
 
 // RSVP Form Toggle
 const rsvpButton = document.getElementById('rsvp-button');
