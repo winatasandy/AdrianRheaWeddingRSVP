@@ -139,21 +139,26 @@ font-family: 'Garamond Bold', sans-serif;
 	font-weight:normal;
 	background: url('images/coverGift.png') no-repeat top center;
 }
-.prize-detail p a:link {
+
+#linkTiny {
   color:#EEF7F5;
-	text-decoration:none;
+	text-decoration:underline;
+}
+#linkTiny:link {
+  color:#EEF7F5;
+	text-decoration:underline;
 }
 
 /* visited link */
-.prize-detail p a:visited {
+#linkTiny:visited {
    color:#EEF7F5;
 	text-decoration:none;
 }
 
 /* mouse over link */
-.prize-detail p a:hover {
-   color:#EEF7F5;
-	text-decoration:none;
+#linkTiny:hover {
+   color:#0056b3;
+	text-decoration:underline;
 }
 
 /* selected link */
