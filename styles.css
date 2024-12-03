@@ -24,6 +24,7 @@ body {
     margin: 0;
     font-family: 'Garamond', serif;
 color:#EEF7F5;
+	font-weight:bold;
     background: url('images/fullBG.jpg') no-repeat top center;
 background-size:cover;
  }
