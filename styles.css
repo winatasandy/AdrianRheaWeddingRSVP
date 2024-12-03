@@ -135,25 +135,25 @@ font-family: 'Garamond', sans-serif;
 	font-size: 0.6rem;
 	background: url('images/coverGift.png') no-repeat top center;
 }
-.prize-detail a:link {
+.prize-detail p a:link {
   color:#EEF7F5;
 	text-decoration : none;
 }
 
 /* visited link */
-.prize-detail a:visited {
+.prize-detail p a:visited {
    color:#EEF7F5;
 	text-decoration : none;
 }
 
 /* mouse over link */
-.prize-detail a:hover {
+.prize-detail p a:hover {
    color:#EEF7F5;
 	text-decoration : none;
 }
 
 /* selected link */
-.prize-detail a:active {
+.prize-detail p a:active {
    color:#EEF7F5;
 	text-decoration : none;
 }
