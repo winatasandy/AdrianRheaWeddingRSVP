@@ -146,6 +146,26 @@ font-family: 'Garamond Bold', sans-serif;
 	background: url('images/coverGift.png') no-repeat top center;
 }
 
+.linkLoc {
+	color:#604655;
+	text-decoration:underline;
+}
+
+.linkLoc:link {
+	color:#604655;
+	text-decoration:underline;
+}
+
+.linkLoc:visited {
+	color:#604655;
+	text-decoration:underline;
+}
+
+.linkLoc:hover {
+	color:#604655;
+	text-decoration:none;
+}
+
 #linkTiny {
   color:#EEF7F5;
 	text-decoration:underline;
