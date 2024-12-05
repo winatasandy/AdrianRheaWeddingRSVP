@@ -45,6 +45,12 @@ margin:auto;
 	background: url('images/cover front.png') no-repeat top center;
 }
 
+.slide2 {
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
 
 .wedding-title {
     font-family: 'Archivo', sans-serif;
