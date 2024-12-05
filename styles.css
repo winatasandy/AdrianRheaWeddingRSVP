@@ -148,6 +148,9 @@ font-family: 'Garamond Bold', sans-serif;
 
 .linkLoc {
 	color:#604655;
+	margin-top:20px;
+	font-size:0.5rem;
+	letter-spacing:3px;
 	text-decoration:underline;
 }
 
