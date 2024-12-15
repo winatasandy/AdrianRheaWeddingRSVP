@@ -24,6 +24,7 @@
 #liveLink
 {
 position:fixed;
+	width:100%;
 	background-color:red;
 	padding:30px;
 	height:200px;
@@ -31,16 +32,16 @@ position:fixed;
 font-size: 0.6rem;
 	color:white;
 	letter-spacing:1px;
+	z-index:2000;
 }
 
 #liveSection
 {
 	width:80%;
-		margin:auto;
+	margin:auto;
 	text-align:center;
 }
 
-#liveSection h3
 
 body {
     margin: 0;
