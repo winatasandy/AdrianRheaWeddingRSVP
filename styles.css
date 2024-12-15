@@ -24,7 +24,7 @@
 #liveLink
 {
 position:fixed;
-	width:100%;
+	width:100vw;
 	margin:auto;
 	background-color:#715F71;
 	padding:10px;
@@ -42,7 +42,6 @@ font-size: 0.5rem;
 #liveSection
 {
 	width:80%;
-	margin:auto;
 	text-align:center;
 }
 
