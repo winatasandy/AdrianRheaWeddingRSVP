@@ -55,6 +55,11 @@ font-size: 0.5rem;
 	color:white;
 }
 
+#liveSection a:visited{
+	text-decoration:none;
+	font-weight:bold;
+	color:white;
+}
 
 body {
     margin: 0;
@@ -353,7 +358,7 @@ font-size:7px;
 font-family:'Archivo', sans-serif;
 text-align:center;
 padding-top: 10px;
-padding-bottom : 30px;
+padding-bottom: 30px;
 }
 
 #background-music {
