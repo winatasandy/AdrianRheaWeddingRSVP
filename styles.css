@@ -29,7 +29,7 @@ position:fixed;
 	padding:10px;
 	height:40px;
 	 font-family: 'Archivo', sans-serif;
-font-size: 0.4rem;
+font-size: 0.5rem;
 	font-weight:normal;
 	color:white;
 	letter-spacing:1px;
@@ -45,11 +45,13 @@ font-size: 0.4rem;
 
 #liveSection a{
 	text-decoration:none;
+	font-weight:bold;
 	color:#EEF7F5;
 }
 
 #liveSection a:hover{
 	text-decoration:none;
+	font-weight:bold;
 	color:white;
 }
 
