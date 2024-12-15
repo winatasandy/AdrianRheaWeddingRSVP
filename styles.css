@@ -27,9 +27,10 @@ position:fixed;
 	width:100%;
 	background-color:#715F71;
 	padding:10px;
-	height:100px;
+	height:40px;
 	 font-family: 'Archivo', sans-serif;
 font-size: 0.4rem;
+	font-weight:normal;
 	color:white;
 	letter-spacing:1px;
 	z-index:2000;
@@ -75,7 +76,7 @@ margin:auto;
     padding: 20px;
     text-align: center;
     margin: auto;
-	margin-top:120px;
+	margin-top:60px;
 	background: url('images/cover front.png') no-repeat top center;
 }
 
