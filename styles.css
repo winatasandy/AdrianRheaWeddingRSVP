@@ -25,11 +25,11 @@
 {
 position:fixed;
 	width:100%;
-	background-color:red;
-	padding:30px;
-	height:200px;
+	background-color:#715F71;
+	padding:10px;
+	height:100px;
 	 font-family: 'Archivo', sans-serif;
-font-size: 0.6rem;
+font-size: 0.4rem;
 	color:white;
 	letter-spacing:1px;
 	z-index:2000;
@@ -40,6 +40,16 @@ font-size: 0.6rem;
 	width:80%;
 	margin:auto;
 	text-align:center;
+}
+
+#liveSection a{
+	text-decoration:none;
+	color:#EEF7F5;
+}
+
+#liveSection a:hover{
+	text-decoration:none;
+	color:white;
 }
 
 
@@ -57,14 +67,15 @@ background-size:cover;
 	width: 100%;
     overflow-x: hidden;
     position: relative;
-	margin-top:260px;
 margin:auto;
+	
 }
 
 .slide {
     padding: 20px;
     text-align: center;
     margin: auto;
+	margin-top:120px;
 	background: url('images/cover front.png') no-repeat top center;
 }
 
